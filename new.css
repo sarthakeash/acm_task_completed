@@ -6,67 +6,56 @@
 body{
 background-image: url(background.jpeg);
 background-repeat: no-repeat;
-background-size: 100% 400%;
+background-size: 100% 20%;
 font-family: 'Open Sans', sans-serif; }
 
 .navbr{ margin-top: 50px;
 background-color: white;
 font-size: 17px;
 padding: 2%;
-text-indent: 55%;
-margin-left: 10%;
+text-indent: 40%;
+margin-left: 5%;
 margin-right: 10%;
 }
-a{ text-decoration: none;
+a{ 
+    text-decoration: none;
 padding: 15px;
 color: rgb(70,125,181);}
 
 
 .reviews{ margin-top: 380px;
-    margin-left: 10%;
-padding-right: 7%;
-     background-color:#ececec; position: absolute;
+    margin-left: 13%;margin-right: 13%;
+  padding-right: 14%;
+    background-color:#ececec; 
+    display: flex;
+    flex-direction:column ;
 }
 
 
 img{ border-radius: 50%;
-width: 70px;}
+width: 60px;}
 
 
 .r1 { background-color: white;
-    margin-left: 110px; padding-right: 80px;  padding-left: 80px; padding-bottom: 40px;
+    margin-left: 11%; margin-right: -12%;  padding-left: 80px; padding-bottom: 40px; padding-right: 80px;
 
 margin-top: -50px;
-
-
-
-
-
 }
 
 
 .r2 { background-color: white;
-    margin-left: 110px; padding-right: 80px;padding-left: 80px; padding-bottom: 40px;
-
-margin-top: 100px;
-
-
-
-
+    margin-left: 11%; margin-right: -12%;  padding-left: 80px; padding-bottom: 40px; 
+ margin-top: 100px;padding-right: 80px;
 }
 
 .r3 { background-color: white;
-    margin-left: 110px; padding-right: 80px;padding-left: 80px; padding-bottom: 40px;
-
-margin-top: 100px;
+    margin-left: 11%; margin-right: -12%;  padding-left: 80px; padding-bottom: 40px; padding-right: 80px;
 
 
-
-
-}
+margin-top: 100px;}
 
 .r4 { background-color: white;
-    margin-left: 110px; padding-right: 80px;padding-left: 80px; padding-bottom: 40px;
+    margin-left: 11%; margin-right: -12%;  padding-left: 80px; padding-bottom: 40px; padding-right: 80px;
 
 margin-top: 100px;
 
@@ -77,18 +66,18 @@ margin-top: 100px;
 
 .user1 , .user2 , .user3 , .user4{position: absolute;
 
-    margin-left: 32%;
+    margin-left: 22.6%;
     margin-top: -40px;
 }
 
 
 
-h4{  margin-top: 30px; position: absolute; margin-left: 350px;}
-h6{margin-top: 50px; position: absolute; margin-left: 360px;}
-h1{margin-top: 80px; position: absolute; margin-left: 140px;}
+h4{  margin-top: 30px; position: absolute; margin-left: 21.8%; text-align: center;}
+h6{margin-top: 50px; position: absolute; margin-left: 22.2%;}
+h1{margin-top: 80px; position: absolute;font-size: 3vw; }
 
 
-#thumbsup{ color: green; margin-top: 150px; font-size: 25px; margin-left: 290px;}
+#thumbsup{ color: green; margin-top: 150px; font-size: 25px; margin-left: 30%;}
 #star1a{color: #e1ad01; margin-top: 150px; font-size: 25px; margin-left: 30px; position: absolute;}
 #star2a{color: #e1ad01; margin-top: 150px; font-size: 25px; margin-left: 60px; position: absolute;}
 #star3a{color: #e1ad01; margin-top: 150px; font-size: 25px; margin-left: 90px; position: absolute;}
@@ -101,20 +90,20 @@ h1{margin-top: 80px; position: absolute; margin-left: 140px;}
 #star4b{color: #e1ad01; margin-top: 150px; font-size: 25px; margin-left: 120px; position: absolute;}
 #star5b{color: #e1ad01; margin-top: 150px; font-size: 25px; margin-left: 150px; position: absolute;}
 #star6b{color: #e1ad01; margin-top: 150px; font-size: 25px; margin-left: 180px; position: absolute;}
-#thumbsdown{ color: red; margin-top: 150px; font-size: 25px; margin-left: 290px;}
+#thumbsdown{ color: red; margin-top: 150px; font-size: 25px; margin-left: 30%;}
 
 
 
-.cmnt1, .cmnt2, .cmnt3 , .cmnt4 { background-color: #f8d970; color: rgb(70,125,181); margin-left: 270px; font-size: 20px;  padding: 20px;padding-right: 60px;padding-left: 60px; border: 0px; font-weight: 500;}
+.cmnt1, .cmnt2, .cmnt3 , .cmnt4 { background-color: #f8d970; color: rgb(70,125,181); margin-left:31%; font-size: 1.4vw;  padding: 20px;padding-right: 60px;padding-left: 60px; border: 0px; font-weight: 500;}
 
-svg{ position: absolute; margin-left: -600px;}
+svg{ position: absolute;margin-left: -30%;}
 
 
 
 
 
 .cmntadd1 , .cmntadd2 , .cmntadd3 , .cmntadd4{ font-size: 25px;
-text-indent: 340px;
+text-indent: 38%;
 padding-top: 20px;
 font-weight: bold;
 
@@ -122,3 +111,4 @@ font-weight: bold;
 
 .hidden1 , .hidden2 , .hidden3 , .hidden4{ display: none;}
 
+a:hover{ color: red;}
