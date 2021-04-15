@@ -40,6 +40,7 @@ width: 4%;}
     margin-left: 11%; margin-right: -12%;  padding-left: 80px; padding-bottom: 40px; padding-right: 80px; font-size: 1.3vw;
 padding-top: 15%;
 margin-top: -5%;
+
 }
 
 
@@ -74,7 +75,7 @@ margin-top: 100px;
 
 h4{  margin-top: -7%; position: absolute; margin-left: 21.8%; text-align: center;}
 h6{margin-top: -5%; position: absolute; margin-left: 22.2%;}
-h1{margin-top: -4%; position: absolute;font-size: 2.4vw;margin-left: 2%; }
+h1{margin-top: -4%; position: absolute;font-size: 2.2vw;margin-left: 3.5%;}
 
 
 #thumbsup{ color: green; margin-top: -1%; font-size: 2vw; margin-left: 10%; position: absolute;}
@@ -112,3 +113,12 @@ font-weight: bold;
 .hidden1 , .hidden2 , .hidden3 , .hidden4{ display: none;}
 
 a:hover{ color: red;}
+
+
+
+.fine{
+    background: -webkit-linear-gradient(#000000, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow: hidden;
+}
