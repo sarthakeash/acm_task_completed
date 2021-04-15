@@ -6,9 +6,13 @@ for(k=1; k<5; k++){
 
 $(com).click(function(){
     let foo = prompt('Please add your comment here');
-
+    if (foo===null) return;
+    if (foo!=""){
     $(cma).html("COMMENT:<br></br> " + foo);
-    if (foo!="") $(this).hide();}
+    
+     $(this).hide();}
+
+}
     
 )}
 var i ;
@@ -19,9 +23,11 @@ for(i=1; i<5; i++){
 let re= ".r" + i ;
 let hid =".hidden" + i;
 let sha =".shadow" + i;
+let fin = "#fine" + i;
 $(re).click(function(){
 
 $(hid).show();
 $(sha).hide();
+$(fin).removeClass("fine")
 
 })}
