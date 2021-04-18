@@ -5,7 +5,7 @@ background-repeat: no-repeat;
 background-size: 100% 20%;
 font-family: 'Montserrat', sans-serif; }
 
-.navbr{ margin-top: 50px;
+.navbr{ margin-top: 2%;
 background-color: white;
 font-size: 1.3vw;
 text-indent: 36%;
@@ -27,15 +27,15 @@ color: black;
 }
 
 .navbr button { 
-margin-top: 0px;
-  padding: 30px 25px;
+margin-top: 0;
+  padding: 3% 2%;
     text-align: center; 
     cursor: pointer;
     outline: none;
     color: #fff;
     background-color: white;
     border: none;
-    margin-left: -6px;
+    margin-left: -0.5%;
   }
   
   .navbr button:hover {background-color: rgb(211,211,211,0.2)}
@@ -55,7 +55,7 @@ width: 4%;}
 
 
 .r1 { background-color: white;
-    margin-left: 11%; margin-right: -12%;  padding-left: 80px; padding-bottom: 40px; padding-right: 80px; font-size: 1.3vw;
+    margin-left: 11%; margin-right: -12%;  padding-left: 10%; padding-bottom: 5%; padding-right: 10%; font-size: 1.3vw;
 padding-top: 15%;
 margin-top: -5%;
 
@@ -63,23 +63,19 @@ margin-top: -5%;
 
 
 .r2 { background-color: white;
-    margin-left: 11%; margin-right: -12%;  padding-left: 80px; padding-bottom: 40px; font-size: 1.3vw;
- margin-top: 100px;padding-right: 80px;padding-top: 15%;
+    margin-left: 11%; margin-right: -12%;  padding-left: 10%; padding-bottom: 5%; font-size: 1.3vw;
+ margin-top: 10%;padding-right: 10%;padding-top: 15%;
 }
 
 
 .r3 { background-color: white;
-    margin-left: 11%; margin-right: -12%;  padding-left: 80px; padding-bottom: 40px; padding-right: 80px;font-size: 1.3vw;padding-top: 15%;
-
-
-margin-top: 100px;}
+    margin-left: 11%; margin-right: -12%;  padding-left: 10%; padding-bottom: 5%; font-size: 1.3vw;
+    margin-top: 10%;padding-right: 10%;padding-top: 15%;}
 
 
 .r4 { background-color: white;
-    margin-left: 11%; margin-right: -12%;  padding-left: 80px; padding-bottom: 40px; padding-right: 80px;font-size: 1.3vw;padding-top: 15%;
-
-margin-top: 100px;
-
+    margin-left: 11%; margin-right: -12%;  padding-left: 10%; padding-bottom: 5%; font-size: 1.3vw;
+    margin-top: 10%;padding-right: 10%;padding-top: 15%;
 }
 
 .user1 , .user2 , .user3 , .user4{position: absolute;
@@ -122,7 +118,7 @@ svg{ position: absolute;margin-left: -28%; width: 13%; margin-top: 2%;}
 
 .cmntadd1 , .cmntadd2 , .cmntadd3 , .cmntadd4{ font-size: 1.4vw;
 text-indent: 40%;
-padding-top: 20px;
+padding-top: 2.5%;
 font-weight: bold;
 
  
@@ -141,7 +137,7 @@ font-weight: bold;
 
 .hotel{
     margin-left: 45%;
-margin-top: -5%;
+margin-top: -2.3%;
 width: 10%;
 
 }
