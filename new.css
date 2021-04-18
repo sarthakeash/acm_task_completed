@@ -88,23 +88,23 @@ margin-top: -5%;
 
 h4{  margin-top: -7%; position: absolute; margin-left: 20.8%; text-align: center;}
 h6{margin-top: -5%; position: absolute; margin-left: 21.8%;}
-h1{margin-top: -4%; position: absolute;font-size: 2.2vw;margin-left: 3.5%;}
+h1{margin-top: -4%; position: absolute;font-size: 2.2vw;margin-left: 5%;}
 
 
-#thumbsup{ color: green; margin-top: -1%; font-size: 2vw; margin-left: 10%; position: absolute;}
-#star1a{color: #e1ad01; margin-top: -1%; font-size: 2vw; margin-left: 13%; position: absolute;}
-#star2a{color: #e1ad01; margin-top: -1%; font-size: 2vw; margin-left: 16%; position: absolute;}
-#star3a{color: #e1ad01; margin-top: -1%; font-size: 2vw; margin-left: 19%; position: absolute;}
-#star4a{color: #e1ad01; margin-top: -1%; font-size: 2vw; margin-left: 22%; position: absolute;}
-#star5a{color: #e1ad01; margin-top: -1%; font-size: 2vw; margin-left: 25%; position: absolute;}
-#star6a{color: #e1ad01; margin-top: -1%; font-size: 2vw; margin-left: 28%; position: absolute;}
-#star1b{color: #e1ad01; margin-top: -1%; font-size: 2vw; margin-left: 13%; position: absolute;}
-#star2b{color: #e1ad01; margin-top: -1%; font-size: 2vw; margin-left: 16%; position: absolute;}
-#star3b{color: #e1ad01; margin-top: -1%; font-size: 2vw; margin-left: 19%; position: absolute;}
-#star4b{color: #e1ad01; margin-top: -1%; font-size: 2vw; margin-left: 22%; position: absolute;}
-#star5b{color: #e1ad01; margin-top: -1%; font-size: 2vw; margin-left: 25%; position: absolute;}
-#star6b{color: #e1ad01; margin-top: -1%; font-size: 2vw; margin-left: 28%; position: absolute;}
-#thumbsdown{ color: red; margin-top: -1%; font-size: 2vw; margin-left: 10%; position: absolute;}
+#thumbsup{ color: green; margin-top: -0.5%; font-size: 2vw; margin-left: 10%; position: absolute;}
+#star1a{color: #e1ad01; margin-top: -0.5%; font-size: 2vw; margin-left: 13%; position: absolute;}
+#star2a{color: #e1ad01; margin-top: -0.5%; font-size: 2vw; margin-left: 16%; position: absolute;}
+#star3a{color: #e1ad01; margin-top: -0.5%; font-size: 2vw; margin-left: 19%; position: absolute;}
+#star4a{color: #e1ad01; margin-top: -0.5%; font-size: 2vw; margin-left: 22%; position: absolute;}
+#star5a{color: #e1ad01; margin-top: -0.5%; font-size: 2vw; margin-left: 25%; position: absolute;}
+#star6a{color: #e1ad01; margin-top: -0.5%; font-size: 2vw; margin-left: 28%; position: absolute;}
+#star1b{color: #e1ad01; margin-top: -0.5%; font-size: 2vw; margin-left: 13%; position: absolute;}
+#star2b{color: #e1ad01; margin-top: -0.5%; font-size: 2vw; margin-left: 16%; position: absolute;}
+#star3b{color: #e1ad01; margin-top: -0.5%; font-size: 2vw; margin-left: 19%; position: absolute;}
+#star4b{color: #e1ad01; margin-top: -0.5%; font-size: 2vw; margin-left: 22%; position: absolute;}
+#star5b{color: #e1ad01; margin-top: -0.5%; font-size: 2vw; margin-left: 25%; position: absolute;}
+#star6b{color: #e1ad01; margin-top: -0.5%; font-size: 2vw; margin-left: 28%; position: absolute;}
+#thumbsdown{ color: red; margin-top: -.5%; font-size: 2vw; margin-left: 10%; position: absolute;}
 
 
 
