@@ -131,7 +131,6 @@ font-weight: bold;
     background: -webkit-linear-gradient(#000000, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    overflow: hidden;
 }
 
 
@@ -161,4 +160,89 @@ margin-left: 41%;
 .p1 , .p2 , .p3 , .p4{
 
 margin-top: 6%;
+}
+
+
+
+  .menu, .menu-close {
+    position: absolute;
+   
+    top: 2%;
+   left: 90%;
+    z-index: 100000;
+  }
+  
+  .menu-line {
+      width: 20px;
+      height: 1px;
+      background-color: rgba(70,125,181);
+      margin: 6px 0;
+  }
+  
+  .menu-close .menu-line {
+    width: 30px;
+    height: 2px;
+    background-color: black;
+  }
+  
+  .menu-close .menu-line:nth-child(1) {
+      transform: rotate(45deg);
+      margin-top: 10px;
+      margin-left: -5%;
+  }
+  
+  .menu-close .menu-line:nth-child(2) {
+      transform: rotate(-45deg);
+      margin-top: -8px;
+  }
+  
+  .menu-panel {
+    width: 50%;
+    right: -500px;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    padding: 50px 10px 50px 60px;
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+    font-size: 2.5em;
+    z-index: 10000;
+  }
+  
+  .menu-panel.show {
+    right: 0px;
+    background-color: white;
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+  }
+  
+  .menu-background {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: -100vh;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+  }
+  
+  .menu-background.show {
+    right: 0px;
+    background-color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+  }
+  
+  .menu-title {
+    margin: 50px 0;
+    font-size: 1em;
+  }
+
+.fun{ display: none;}
+@media screen and (max-width:480px) {.fun{ display: inline;}
+.navbr{margin-left: 0;margin-right: 0;}
+svg{width:30%}
+.tohide{visibility: hidden; }
+    
 }
